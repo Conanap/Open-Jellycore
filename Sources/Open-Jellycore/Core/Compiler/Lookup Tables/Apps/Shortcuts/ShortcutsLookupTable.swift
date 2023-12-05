@@ -1473,6 +1473,9 @@ ActionPreset(path: "WFEncodeMode", value: "Encode"),
                                 """, lowestCompatibleHost: .iOS14, presets: [
                                     
                                 ]),
+  "setFocus": Action<SetFocusParameter>(name: "Set focus", identifier: "is.workflow.actions.dnd.set", correctTypedFunction: "setFocus", description: """
+                                Sets the specified focus mode.
+  """)
 
     ]
 }
